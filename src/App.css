@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+*{
+  margin:0;
+  padding:0;
+  border:0;
+  list-style: none;
+  vertical-align: baseline;
+  font-family:'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html{
+  font-size: 20px;
+}
+body {
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  color:#FFF;
+}
+@media (max-width:460px){
+  html{
+    font-size:10px;
+  }
+}
+
+#wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#new-quote{
+  color:inherit;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  border: 0.3rem solid #FFF;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: inherit;
+}
+#quote-box{
+  font-size: 1.5rem;
+  padding: 20px;
+  border: 0.5rem solid #FFF;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  line-height: 1.5rem;
+  width: 50%;
+  height: 50%;
+  margin-bottom: 10px;
+}
+
+.quote-author{
+  text-align: right;
+}
+#author{
+font-style: italic;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+img{
+  width: 6rem;
+}
